@@ -1,0 +1,3 @@
+rootProject.name = 'lession2Flex'
+
+include ':app'
