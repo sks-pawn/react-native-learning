@@ -1,4 +1,4 @@
-/**
+/**Greeting
  * Sample React Native App
  * https://github.com/facebook/react-native
  *
@@ -7,7 +7,17 @@
  */
 
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View, Image } from 'react-native';
+
+class Geeting extends Component {
+  render() {
+    return (
+      <Image source={{ uri: "https://www.w3schools.com/w3css/img_lights.jpg" }}
+        style={{ width: 200, height: 200 }}></Image>
+    )
+  }
+}
+
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -21,8 +31,9 @@ export default class App extends Component<Props> {
           </View>
           <View style={[styles.topRight, { backgroundColor: 'black' }]}>
             <Text style={styles.text}>
-                Một chuỗi test
+              Một chuỗi test
             </Text>
+            {Greeting}
           </View>
         </View>
         <View style={styles.bottom}>
