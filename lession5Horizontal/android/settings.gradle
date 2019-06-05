@@ -1,0 +1,3 @@
+rootProject.name = 'lession5Horizontal'
+
+include ':app'

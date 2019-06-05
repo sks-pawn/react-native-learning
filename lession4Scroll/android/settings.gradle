@@ -1,0 +1,3 @@
+rootProject.name = 'lession4Scroll'
+
+include ':app'
