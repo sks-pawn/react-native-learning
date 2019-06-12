@@ -102,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.lession9"
+        applicationId "com.lession9firebase"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

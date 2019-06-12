@@ -1,4 +1,4 @@
-package com.lession9;
+package com.lession9firebase;
 
 import android.app.Application;
 

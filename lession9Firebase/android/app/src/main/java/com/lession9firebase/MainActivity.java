@@ -1,4 +1,4 @@
-package com.lession9;
+package com.lession9firebase;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "lession9";
+        return "lession9Firebase";
     }
 }
