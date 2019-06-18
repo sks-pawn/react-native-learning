@@ -5,7 +5,7 @@
  * @format
  * @flow
  */
-
+import React, { Component } from 'react'
 import { Image } from 'react-native'
 import Home from './components/Home';
 import Detail from './components/Detail';

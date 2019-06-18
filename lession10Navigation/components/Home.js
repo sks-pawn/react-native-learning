@@ -11,6 +11,7 @@ export default class Home extends Component {
 
         return (
             <View style={styles.container} >
+                <Text>das</Text> 
                 {/* <Button
                     title="Push me"
                     onPress={() => {

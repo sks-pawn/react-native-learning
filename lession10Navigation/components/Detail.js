@@ -25,6 +25,7 @@ export default class Detail extends Component {
         // const { goBack } = this.props.navigation
         return (
             <View style={styles.container}>
+                <Text>das</Text> 
                 {/* <Text>
                     Detail {params.username}
                 </Text>

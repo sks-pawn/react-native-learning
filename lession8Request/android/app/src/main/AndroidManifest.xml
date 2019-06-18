@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.lession8">
+  package="com.lession8request">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
