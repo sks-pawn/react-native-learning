@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet, Button, TextInput, TouchableOpacity } from 'react-native'
+import { Text, View, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
 export default class Login extends Component {
     static navigationOptions = {
         title: 'Login'
@@ -19,6 +19,7 @@ export default class Login extends Component {
 
         return (
             <View style={styles.container}>
+                <Text style={{ color: 'blue', fontSize: 40 }}>LOGIN</Text>
                 <View style={[styles.container, { width: '100%' }]}>
                     <TextInput
                         style={styles.input}
@@ -32,10 +33,10 @@ export default class Login extends Component {
                     />
                 </View>
                 <View style={{ flexDirection: 'row' }}>
-                    <TouchableOpacity style={[styles.button, { backgroundColor: 'red' }]}>
+                    <TouchableOpacity style={[styles.button, { backgroundColor: 'green' }]}>
                         <Text>Login</Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={[styles.button, { backgroundColor: 'green' }]}
+                    <TouchableOpacity style={[styles.button, { backgroundColor: 'grey' }]}
                         onPress={() => {
                             navigate('Register', { username: 'ThànhNa' })
                         }} >
