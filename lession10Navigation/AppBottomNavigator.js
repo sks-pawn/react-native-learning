@@ -6,10 +6,10 @@
  * @flow
  */
 import React, { Component } from 'react'
-import { Image } from 'react-native'
-import Home from './components/Home';
-import Detail from './components/Detail';
-import { createStackNavigator, createBottomTabNavigator, createAppContainer } from "react-navigation";
+import { Image, StyleSheet, View } from 'react-native'
+import Home from './components/Bottom/Home';
+import Detail from './components/Bottom/Detail';
+import { createBottomTabNavigator, createAppContainer } from "react-navigation";
 
 const AppNavigator = createBottomTabNavigator(
   {
@@ -26,12 +26,15 @@ const AppNavigator = createBottomTabNavigator(
         } else if (routeName === 'Detail') {
           urlIcon = require(`./images/detail.png`);
         }
-        return <Image source={urlIcon} />;
+        return <Image style={[styles.icon, { tintColor: tintColor }]} source={urlIcon} />
       }
     }),
     tabBarOptions: {
       activeTintColor: 'tomato',
-      inactiveTintColor: 'gray',
+      labelStyle: {
+        fontSize: 12,
+      },
+      inactiveTintColor: 'gray'
     },
   }
   // {
@@ -39,5 +42,15 @@ const AppNavigator = createBottomTabNavigator(
   //   // headerMode: "none"
   // }
 );
+
+const styles = StyleSheet.create({
+  icon: {
+    maxWidth: 20,
+    maxHeight: 20,
+    backgroundColor: 'grey',
+    padding: 5
+  }
+});
+
 
 export default createAppContainer(AppNavigator);
