@@ -9,7 +9,6 @@ import RNFetchBlob from 'react-native-fetch-blob'
 const storage = FirebaseConfig.storage()
 const { fs, polyfill } = RNFetchBlob
 const { Blob, XMLHttpRequest } = polyfill
-
 window.XMLHttpRequest = XMLHttpRequest
 window.Blob = Blob
 
@@ -22,33 +21,6 @@ const options = {
     },
 };
 
-const uploadImage = (uri, mime = 'img/jpg') => {
-    return new Promise((resolve, reject) => {
-        const uploadUri = Platform.OS === 'ios' ? uri.replace('file://', '') : uri
-        const sessionId = new Data().getTime()
-        let uploadBlob = null
-        const imageRef = storage.ref('images').child(`${sessionId}.jpg`)
-
-        fs.readFile(uploadUri, 'base64')
-            .then(data => {
-                return Blob.build(data, { type: `${mime}; BASE64` })
-            })
-            .then(blob => {
-                uploadBlob = blob
-                return imageRef.put(blob, { contentType: mime })
-            })
-            .then(() => {
-                uploadBlob.close()
-                return imageRef.getDownloadURL()
-            })
-            .then(url => {
-                resolve(url)
-            })
-            .catch((err) => {
-                reject(err)
-            });
-    })
-}
 
 export default class AppStorage extends Component {
     constructor(props) {
@@ -58,7 +30,33 @@ export default class AppStorage extends Component {
         }
     }
 
+    uploadImage = (uri, mime = 'application/octet-stream') => {
+        return new Promise((resolve, reject) => {
+            const uploadUri = Platform.OS === 'ios' ? uri.replace('file://', '') : uri
+            const sessionId = new Date().getTime()
+            let uploadBlob = null
+            const imageRef = storage.ref('images').child(`${sessionId}.jpg`)
 
+            fs.readFile(uploadUri, 'base64')
+                .then(data => {
+                    return Blob.build(data, { type: `${mime}; BASE64` })
+                })
+                .then(blob => {
+                    uploadBlob = blob
+                    return imageRef.put(blob, { contentType: mime })
+                })
+                .then(() => {
+                    uploadBlob.close()
+                    return imageRef.getDownloadURL()
+                })
+                .then(url => {
+                    resolve(url)
+                })
+                .catch((err) => {
+                    reject(err)
+                });
+        })
+    }
 
     handleChoosePhoto = () => {
         ImagePicker.showImagePicker(options, response => {
@@ -70,7 +68,7 @@ export default class AppStorage extends Component {
             } else if (response.error) {
             } else if (response.customButton) {
             } else {
-                uploadImage(response.uri).then(url => {
+                this.uploadImage(response.uri).then(url => {
                     this.setState({ photo: url });
                 }).catch((err) => {
                     throw err
@@ -80,28 +78,24 @@ export default class AppStorage extends Component {
     }
     render() {
         const { photo } = this.state
+
         return (
             <View style={styles.container}>
                 <Text style={{ fontSize: 30, color: 'green' }}>UPLOAD IMAGE</Text>
-                <Text style={{color: 'black'}}>{photo}</Text>
-                {
-                    (() => {
-                        switch (photo) {
-                            case null:
-                                return null
-                            case '':
-                                return <ActivityIndicator size="large" color="#0000ff" />
-                            default:
-                                return (<View>
-                                    <Text>{photo}</Text>
-                                    <Image
-                                        source={{ uri: photo }}
-                                        style={{ width: 300, height: 300 }}
-                                    />
-                                </View>)
-                        }
-                    })
-                }
+                <Text style={{ color: 'black' }}>{photo}</Text>
+                {(() => {
+                    switch (photo) {
+                        case null:
+                            return <Text>dsa----</Text>
+                        case '':
+                            return <ActivityIndicator size="large" color="#0000ff" />
+                        default:
+                            return <Image
+                                source={{ uri: photo }}
+                                style={{ width: 300, height: 300 }}
+                            />
+                    }
+                })()}
                 <Button title="Choose Photo" onPress={this.handleChoosePhoto} />
             </View>
         )
