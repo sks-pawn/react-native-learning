@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">lession11</string>
+   <string name="facebook_app_id">440319349854519</string> 
+   <string name="fb_login_protocol_scheme">fb440319349854519</string>
 </resources>
