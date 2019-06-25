@@ -1,8 +1,6 @@
 apply plugin: "com.android.application"
 
 import com.android.build.OutputFile
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
@@ -104,7 +102,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.lession11"
+        applicationId "com.lession11firebase2"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -146,7 +144,7 @@ dependencies {
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation 'com.google.firebase:firebase-core:16.0.9'
-    implementation 'com.google.firebase:firebase-auth:18.0.0'
+    implementation 'com.google.firebase:firebase-auth:17.0.0'
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
 }
 

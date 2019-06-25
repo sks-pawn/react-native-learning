@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1019698029457",
-    "firebase_url": "https://reactnativelearning-9929a.firebaseio.com",
-    "project_id": "reactnativelearning-9929a",
-    "storage_bucket": "reactnativelearning-9929a.appspot.com"
+    "project_number": "134069505638",
+    "firebase_url": "https://reactnativelession11.firebaseio.com",
+    "project_id": "reactnativelession11",
+    "storage_bucket": "reactnativelession11.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1019698029457:android:1e2f164159b76794",
+        "mobilesdk_app_id": "1:134069505638:android:8f8b2a2b1dba6ac9",
         "android_client_info": {
-          "package_name": "com.lession11"
+          "package_name": "com.lession11firebase2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1019698029457-3dpnjqdd28d1khuuc7m6g5ubngk6m8k0.apps.googleusercontent.com",
+          "client_id": "134069505638-ijtpalk6dfp1e0f11rlu24p55eng1716.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAZXpMbuD9QDhUyzaMTJQPgWbo8mD4ehP0"
+          "current_key": "AIzaSyBd6C4EoGWV8mjE_IjiAND4HSdqY-hmkbw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1019698029457-3dpnjqdd28d1khuuc7m6g5ubngk6m8k0.apps.googleusercontent.com",
+              "client_id": "134069505638-ijtpalk6dfp1e0f11rlu24p55eng1716.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
