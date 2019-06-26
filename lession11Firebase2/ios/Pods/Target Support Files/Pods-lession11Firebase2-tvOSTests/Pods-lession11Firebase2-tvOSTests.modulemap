@@ -1,0 +1,6 @@
+framework module Pods_lession11Firebase2_tvOSTests {
+  umbrella header "Pods-lession11Firebase2-tvOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

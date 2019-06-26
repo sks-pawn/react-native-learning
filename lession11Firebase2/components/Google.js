@@ -40,7 +40,8 @@ export default class Google extends Component {
                 // play services not available or outdated
                 console.log('dịch vụ không có sẵn hoặc lỗi');
             } else {
-                console.log('some other error happened')
+                
+                console.log('some other error happened', error)
                 // some other error happened
             }
         }

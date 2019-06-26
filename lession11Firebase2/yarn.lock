@@ -4863,11 +4863,6 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-native-fbsdk@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/react-native-fbsdk/-/react-native-fbsdk-0.10.1.tgz#b3ed4237b1322956f2260c716d49c2ce08514741"
-  integrity sha512-/TfpiT7wLdP1ABWk46DhpadbOSXdizWEvrNhLABe+9jK8/ljaCL7nwHj+Xp0Yd6KBnW88in67ukAy2kbfbfZ+A==
-
 react-native-firebase@^5.5.3:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/react-native-firebase/-/react-native-firebase-5.5.3.tgz#bc2df1c0f34f6012a5ecbd4a506bd5f7b71abf6c"
@@ -4875,11 +4870,6 @@ react-native-firebase@^5.5.3:
   dependencies:
     opencollective-postinstall "^2.0.0"
     prop-types "^15.7.2"
-
-react-native-google-signin@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-google-signin/-/react-native-google-signin-2.0.0.tgz#0d9cb128a65c0b48216716b979c1ada35900ceb0"
-  integrity sha512-9loM4lcCIdbco5BnmNio7yGaXQKCpCaY1VRmYiTSvC5NjuSf6Ui6jZRee46p/YdaU4yRnS3u5Vct6Psrvr0HNg==
 
 react-native@0.59.9:
   version "0.59.9"

@@ -8,15 +8,16 @@
 
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
-import Facebook from './components/Facebook'
-import Google from './components/Google'
+// import Facebook from './components/Facebook'
+// import Google from './components/Google'
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Facebook />
-        <Google />
+        <Text>dsada</Text>
+        {/* <Facebook /> */}
+        {/* <Google /> */}
       </View>
     );
   }

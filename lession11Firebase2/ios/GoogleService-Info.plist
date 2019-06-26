@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>134069505638-hh42m1rnkle4f8vpqr7rjhrh32tm993n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.134069505638-hh42m1rnkle4f8vpqr7rjhrh32tm993n</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>134069505638-dmsk2vinf2vjp123jq2sc39cfvb2vjq9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCrnpEeXxPMQMA0I_vZWvvJ1OV83dT1ZvM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>134069505638</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.lession11Firebase2</string>
+	<key>PROJECT_ID</key>
+	<string>reactnativelession11</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reactnativelession11.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:134069505638:ios:be71e4c664244744</string>
+	<key>DATABASE_URL</key>
+	<string>https://reactnativelession11.firebaseio.com</string>
+</dict>
+</plist>

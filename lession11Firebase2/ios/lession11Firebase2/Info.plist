@@ -56,5 +56,8 @@
 			</dict>
 		</dict>
 	</dict>
+
+<key>LSApplicationQueriesSchemes</key> <array> <string>fbapi</string> <string>fb-messenger-share-api</string> <string>fbauth2</string> <string>fbshareextension</string> </array>
+<key>CFBundleURLTypes</key> <array> <dict> <key>CFBundleURLSchemes</key> <array> <string>fb440319349854519</string> </array> </dict> </array> <key>FacebookAppID</key> <string>440319349854519</string> <key>FacebookDisplayName</key> <string>ReactNativeLession11</string>
 </dict>
 </plist>
