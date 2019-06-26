@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "134069505638-8kphkuocm6sms1r6g82f1vns7bkpeqea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lession11firebase2",
+            "certificate_hash": "bf4bb9dd6bec03a4a3e5ca6b221038a030371a5f"
+          }
+        },
+        {
           "client_id": "134069505638-ijtpalk6dfp1e0f11rlu24p55eng1716.apps.googleusercontent.com",
           "client_type": 3
         }
