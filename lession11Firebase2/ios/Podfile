@@ -1,18 +1,17 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.2'
-
-pod 'Firebase/Core'
-pod 'GoogleSignIn'
-pod 'FBSDKLoginKit'
-pod 'Firebase/Auth'
-pod 'Firebase/Database'
-pod 'Firebase/Firestore'
+ platform :ios, '9.2'
 
 target 'lession11Firebase2' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for lession11Firebase2
+  pod 'Firebase/Core'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+  
 
   target 'lession11Firebase2Tests' do
     inherit! :search_paths
@@ -25,11 +24,9 @@ target 'lession11Firebase2-tvOS' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for lession11Firebase2-tvOS
-
   target 'lession11Firebase2-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
-  end
 
+  end
 end

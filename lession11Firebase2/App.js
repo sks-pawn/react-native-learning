@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 // import Facebook from './components/Facebook'
 // import Google from './components/Google'
+import firebase from 'react-native-firebase'
 
 export default class App extends Component {
   render() {

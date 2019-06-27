@@ -1,29 +1,21 @@
 {
   "project_info": {
-    "project_number": "134069505638",
-    "firebase_url": "https://reactnativelession11.firebaseio.com",
-    "project_id": "reactnativelession11",
-    "storage_bucket": "reactnativelession11.appspot.com"
+    "project_number": "136883027034",
+    "firebase_url": "https://reactnativelession11-c686a.firebaseio.com",
+    "project_id": "reactnativelession11-c686a",
+    "storage_bucket": "reactnativelession11-c686a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:134069505638:android:8f8b2a2b1dba6ac9",
+        "mobilesdk_app_id": "1:136883027034:android:8f8b2a2b1dba6ac9",
         "android_client_info": {
           "package_name": "com.lession11firebase2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "134069505638-dmsk2vinf2vjp123jq2sc39cfvb2vjq9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.lession11firebase2",
-            "certificate_hash": "80bc20746127b6ec4632b7c97dd0fe8aed97b838"
-          }
-        },
-        {
-          "client_id": "134069505638-8kphkuocm6sms1r6g82f1vns7bkpeqea.apps.googleusercontent.com",
+          "client_id": "136883027034-kjcig04lm13c8phrm3ass0b9hceku2h2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.lession11firebase2",
@@ -31,20 +23,28 @@
           }
         },
         {
-          "client_id": "134069505638-ijtpalk6dfp1e0f11rlu24p55eng1716.apps.googleusercontent.com",
+          "client_id": "136883027034-7ils593lm376icvq77f4polbtepc40qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lession11firebase2",
+            "certificate_hash": "80bc20746127b6ec4632b7c97dd0fe8aed97b838"
+          }
+        },
+        {
+          "client_id": "136883027034-busgbq6p868f7shjrbv9ptmhcr0kf1q8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBd6C4EoGWV8mjE_IjiAND4HSdqY-hmkbw"
+          "current_key": "AIzaSyB1Huwcpi1p5dWLiGPZsryegXbXMSmNDeM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "134069505638-ijtpalk6dfp1e0f11rlu24p55eng1716.apps.googleusercontent.com",
+              "client_id": "136883027034-busgbq6p868f7shjrbv9ptmhcr0kf1q8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
