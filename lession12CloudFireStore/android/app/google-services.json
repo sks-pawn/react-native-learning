@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "453643720419",
+    "firebase_url": "https://unique-alpha-221520.firebaseio.com",
+    "project_id": "unique-alpha-221520",
+    "storage_bucket": "unique-alpha-221520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453643720419:android:95b349342af58b3d",
+        "android_client_info": {
+          "package_name": "com.lession12cloudfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453643720419-0pddmaic08djig8btd2cucbm0b0ka3fo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lession12cloudfirestore",
+            "certificate_hash": "80bc20746127b6ec4632b7c97dd0fe8aed97b838"
+          }
+        },
+        {
+          "client_id": "453643720419-h14u5010aegc8fc5kr7ibn2pa0if2mrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDasheyeqORkDMnY0QPU9xI075-r76skOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453643720419-h14u5010aegc8fc5kr7ibn2pa0if2mrf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "453643720419-ojl7vrjgn1aqa2ivu4l5ldlnu0eka7gc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.lession12CloudFireStore"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
