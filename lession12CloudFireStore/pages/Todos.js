@@ -21,6 +21,7 @@ export default class Todos extends Component {
             loading: false,           
         });     
         this.ref = firebase.firestore().collection('todoTasks');
+        console.log(this.ref);
     }
     // componentDidMount() {
     //     this.unsubscribe = this.ref.onSnapshot((querySnapshot) => {
@@ -63,7 +64,7 @@ export default class Todos extends Component {
     render() {
         return (
             <View style={styles.defaultPlatform}>
-                <Text>dsa</Text>
+                <Text>tesssst</Text>
                 {/* <View style={{
                     backgroundColor: 'tomato',
                     flexDirection: 'row',

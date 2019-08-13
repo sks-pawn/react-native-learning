@@ -193,7 +193,7 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation "com.google.android.gms:play-services-base:16.1.0"
     implementation "com.google.firebase:firebase-core:16.0.9"
-    implementation 'com.google.firebase:firebase-firestore:20.1.0'
+    implementation 'com.google.firebase:firebase-firestore:20.2.0'
     implementation "com.google.firebase:firebase-functions:17.0.0"
 
     if (enableHermes) {

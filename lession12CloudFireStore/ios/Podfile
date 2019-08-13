@@ -3,9 +3,6 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 target 'lession12CloudFireStore' do
   # Pods for lession12CloudFireStore
-  pod 'Firebase/Core'
-  pod 'Firebase/Firestore'
-  pod 'Firebase/Functions'
 
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
@@ -32,6 +29,9 @@ target 'lession12CloudFireStore' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Functions'
 
 
   target 'lession12CloudFireStoreTests' do
